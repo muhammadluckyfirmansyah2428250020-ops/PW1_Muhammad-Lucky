@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kampus MDP</title>
+  </head>
+  <body>
+    <!-- Logo -->
+    <img src="images/Abdul_MDP.png" alt="logo kampus" width="120" alt="mdp" />
+    <p>Kampus Inovasi</p>
+    <hr />
+    <!-- Menu -->
+    <table>
+      <tr>
+        <td>
+          <a href="home.html">Home</a> | 
+          <a href="profil.html">Profil</a> |
+          <a href="pmb.html">PMB</a> |
+          <a href="hubungi.html">Hubungi Kami</a> |
+        </td>
+      </tr>
+    </table>
+    <hr />
+
+    <h2>Penerimaan Mahasiswa Baru</h2>
+    <p>
+      Universitas MDP membuka penerimaan mahasiswa baru untuk tahun akademik
+      2025/2026.Silakan daftar segera!
+    </p>
+    <form action="proses.php" method="post">
+      Nama Lengkap <br />
+      <input type="text" name="nama" /> <br /><br />
+
+      Jenis Kelamin <br />
+      <input type="radio" name="jk" value="L" /> Laki-laki
+      <input type="radio" name="jk" value="P" /> Perempuan <br /><br />
+
+      Nomor HP <br />
+      <input type="text" name="no_hp" /> <br /><br />
+
+      Email <br />
+      <input type="text" name="email" /> <br /><br />
+
+      Alamat <br />
+      <textarea name="alamat" cols="30" rows="3"></textarea> <br /><br />
+
+      Pilihan Program Studi <br />
+      <select name="prodi">
+        <option value="SI">Sistem Informasi (S1)</option>
+        <option value="TI">Teknik Informatika (S1)</option>
+        <option value="MI">Manajemen Informatika (D3)</option>
+        <option value="AK">Akuntansi (S1)</option>
+      </select>
+      <br /><br />
+      <input type="submit" value="Daftar" />
+
+      <tr>
+        <td>
+          <p>© 2025 Universitas MDP</p>
+        </td>
+      </tr>
+    </form>
+  </body>
+</html>
